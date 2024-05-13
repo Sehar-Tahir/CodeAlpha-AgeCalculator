@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img{
+    height: 47px;
+    margin-bottom: 11px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.age-container{
+    height: 200px;
+    width: 400px;
+    padding: 38px;
+    box-shadow: 0 0 10px 0 rgb(77, 75, 75);
+    border-radius: 10px;
+    text-align: center;
+    background-color: #000;
+
+}
+.age-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.h-text{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 13px;
+    cursor: pointer;
+}
+label{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    display: block;
+    cursor: pointer;
+    color: #fff;
+}
+.age-dob-input{
+    box-shadow: 4px 4px 4px rgb(189 200 213),
+    2px 2px 4px rgb(255 255 255);
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    margin-bottom: 15px;
+    background-color: white;
+    cursor: pointer;
+}
+.calculate-btn{
+    box-shadow: 4px 4px 4px rgb(189 200 213),
+    2px 2px 4px rgb(255 255 255);
+    font-size: 1.2rem;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.output{
+    margin-top: 15px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 0 4px 0 black;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+}
